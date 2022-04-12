@@ -10,27 +10,25 @@
 
 ## 集成
 
-`
+```
 pod 'YNStatusBar'
-
-`
+```
 ## 使用
+
 一行代码搞定
 
-`Objc
-
+```
     YNStatusBar *bar = [[YNStatusBar alloc] initWithFrame:topToolView.bounds];
     bar.refreshTime = 2;//刷新时间，默认是5秒
     [topToolView addSubview:bar];
-
-`
+```
 
 ## Screenshots
 
 ![
 imge01
-](demo_01.png)
+](/demo_01.png)
 
 ![
 imge02
-](demo_02.png)
+](/demo_02.png)
