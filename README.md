@@ -27,8 +27,8 @@ pod 'YNStatusBar'
 
 ![
 imge01
-](/demo_01.png)
+](https://github.com/luyinuo/YNStatusBar/blob/master/demo_01.PNG)
 
 ![
 imge02
-](/demo_02.png)
+](https://github.com/luyinuo/YNStatusBar/blob/master/demo_02.PNG)
