@@ -40,7 +40,7 @@
 		0726CF9C21456F81DB877C9B /* Pods_YNStatusBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNStatusBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F01F12D3D61128AA17C806 /* Pods_YNStatusBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNStatusBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3DC71834A0C4141C164413 /* Pods-YNStatusBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNStatusBar_Example.release.xcconfig"; path = "Target Support Files/Pods-YNStatusBar_Example/Pods-YNStatusBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4B75AE7290B307AFCEF01CDB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4B75AE7290B307AFCEF01CDB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4BE9C3CFA9362C89A8709063 /* Pods-YNStatusBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNStatusBar_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YNStatusBar_Tests/Pods-YNStatusBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YNStatusBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YNStatusBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		794B24C6E585993A5A52EA33 /* Pods-YNStatusBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNStatusBar_Tests.release.xcconfig"; path = "Target Support Files/Pods-YNStatusBar_Tests/Pods-YNStatusBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A74A8BD9B4886265E43A615D /* YNStatusBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YNStatusBar.podspec; path = ../YNStatusBar.podspec; sourceTree = "<group>"; };
+		A74A8BD9B4886265E43A615D /* YNStatusBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YNStatusBar.podspec; path = ../YNStatusBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7A5BE18E9AE437C3374A39A /* Pods-YNStatusBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNStatusBar_Example.debug.xcconfig"; path = "Target Support Files/Pods-YNStatusBar_Example/Pods-YNStatusBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EF91D771FB8FB9690A6272A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EF91D771FB8FB9690A6272A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				4BE9C3CFA9362C89A8709063 /* Pods-YNStatusBar_Tests.debug.xcconfig */,
 				794B24C6E585993A5A52EA33 /* Pods-YNStatusBar_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,6 @@
+framework module YNStatusBar {
+  umbrella header "YNStatusBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

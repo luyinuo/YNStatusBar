@@ -1,0 +1,16 @@
+PODS:
+  - YNStatusBar (0.1.0)
+
+DEPENDENCIES:
+  - YNStatusBar (from `../`)
+
+EXTERNAL SOURCES:
+  YNStatusBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YNStatusBar: 31304acdda8eb0ac964fe51da40c99511b8422ea
+
+PODFILE CHECKSUM: 26b217f6a07ab0e35192358fd334b72b33ef705c
+
+COCOAPODS: 1.11.2
