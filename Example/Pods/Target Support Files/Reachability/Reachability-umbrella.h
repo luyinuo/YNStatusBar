@@ -10,9 +10,8 @@
 #endif
 #endif
 
-#import "YNStatusBar.h"
-#import "YNUtilities.h"
+#import "Reachability.h"
 
-FOUNDATION_EXPORT double YNStatusBarVersionNumber;
-FOUNDATION_EXPORT const unsigned char YNStatusBarVersionString[];
+FOUNDATION_EXPORT double ReachabilityVersionNumber;
+FOUNDATION_EXPORT const unsigned char ReachabilityVersionString[];
 

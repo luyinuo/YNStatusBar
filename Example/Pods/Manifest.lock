@@ -1,15 +1,22 @@
 PODS:
-  - YNStatusBar (0.1.0)
+  - Reachability (3.2)
+  - YNStatusBar (0.1.0):
+    - Reachability
 
 DEPENDENCIES:
   - YNStatusBar (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Reachability
 
 EXTERNAL SOURCES:
   YNStatusBar:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YNStatusBar: 31304acdda8eb0ac964fe51da40c99511b8422ea
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  YNStatusBar: 9605830b4b04d5c15487364cd0411eba8e5951ab
 
 PODFILE CHECKSUM: 26b217f6a07ab0e35192358fd334b72b33ef705c
 

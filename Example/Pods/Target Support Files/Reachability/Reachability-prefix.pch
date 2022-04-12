@@ -10,9 +10,3 @@
 #endif
 #endif
 
-#import "YNStatusBar.h"
-#import "YNUtilities.h"
-
-FOUNDATION_EXPORT double YNStatusBarVersionNumber;
-FOUNDATION_EXPORT const unsigned char YNStatusBarVersionString[];
-

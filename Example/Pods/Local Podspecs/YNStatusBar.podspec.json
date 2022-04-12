@@ -18,5 +18,16 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "YNStatusBar/Classes/**/*"
+  "source_files": "YNStatusBar/Classes/**/*",
+  "resource_bundles": {
+    "YNStatusBar": [
+      "YNStatusBar/Assets/**/*"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "Reachability": [
+
+    ]
+  }
 }
