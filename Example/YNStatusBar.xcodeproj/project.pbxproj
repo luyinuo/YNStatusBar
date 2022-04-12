@@ -248,7 +248,7 @@
 				ORGANIZATIONNAME = luyinuo;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = UPTAF2647K;
+						DevelopmentTeam = 5EA84RSZ3J;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -499,7 +499,7 @@
 			baseConfigurationReference = A7A5BE18E9AE437C3374A39A /* Pods-YNStatusBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UPTAF2647K;
+				DEVELOPMENT_TEAM = 5EA84RSZ3J;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YNStatusBar/YNStatusBar-Prefix.pch";
 				INFOPLIST_FILE = "YNStatusBar/YNStatusBar-Info.plist";
@@ -516,7 +516,7 @@
 			baseConfigurationReference = 4A3DC71834A0C4141C164413 /* Pods-YNStatusBar_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UPTAF2647K;
+				DEVELOPMENT_TEAM = 5EA84RSZ3J;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YNStatusBar/YNStatusBar-Prefix.pch";
 				INFOPLIST_FILE = "YNStatusBar/YNStatusBar-Info.plist";
