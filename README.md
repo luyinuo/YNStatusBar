@@ -2,11 +2,9 @@
 
 * 自定义状态栏：包含：时间、网络状态、电池电量、充电状态
 
-* 横屏时状态栏不显示,这是因为iOS系统(iOS8之后)在视图横屏的时候默认把状态栏隐藏掉了
+* 在iOS13更新后，在横屏模式下看不到状态栏的信息了。目前各大视频APP平台，状态栏都是自家添加的，你会发现各家基本上都不太一样。但都有共同点：时间+电池+网络状态。于是参考B站的横屏状态栏，自己封装了一个状态栏。
 
-## 比较常见的应用场景：视频播放器横屏播放
 
-* 目前各大视频APP平台主要的解决方案是，自己画一个？于是参考B站得横屏状态栏，方便各位看官使用，封装成了YNStatusBar.
 
 ## 集成
 
@@ -29,6 +27,7 @@ pod 'YNStatusBar'
 imge01
 ](https://github.com/luyinuo/YNStatusBar/blob/master/demo_01.PNG)
 
+## Bilibili截屏
 ![
 imge02
 ](https://github.com/luyinuo/YNStatusBar/blob/master/demo_02.PNG)
