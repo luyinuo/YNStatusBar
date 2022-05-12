@@ -19,9 +19,9 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 NS_ASSUME_NONNULL_BEGIN
 
 @interface YNStatusBar : UIView
-// 刷新时间间隔，默认5秒
+// 刷新时间间隔，如果不设置不会自动定时刷新UI
 @property (nonatomic, assign) NSTimeInterval refreshTime;
-
+- (void)updateUI;
 @end
 
 

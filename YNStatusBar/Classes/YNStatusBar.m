@@ -98,7 +98,8 @@ static inline CGFloat YNStatusBarHeight() {
     [self addSubview:self.batteryLabel];
     [self addSubview:self.networkLabel];
     [self updateUI];
-    [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
+    //默认不开启Timer
+//    [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
 }
 
 - (void)setRefreshTime:(NSTimeInterval)refreshTime{
